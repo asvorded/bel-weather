@@ -5,21 +5,70 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "bel_weather",
+            "name": "Debug Android",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
             "request": "launch",
-            "type": "dart"
+            "platform": "android"
         },
         {
-            "name": "bel_weather (profile mode)",
+            "name": "Run Android",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
             "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
+            "platform": "android",
+            "enableDebug": false
         },
         {
-            "name": "bel_weather (release mode)",
+            "name": "Debug iOS",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
             "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
+            "platform": "ios"
+        },
+        {
+            "name": "Run iOS",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "enableDebug": false
+        },
+        {
+            "name": "Debug Android Hermes",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "launch",
+            "platform": "android"
+        },
+        {
+            "name": "Run Android Hermes",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "launch",
+            "platform": "android",
+            "enableDebug": false
+        },
+        {
+            "name": "Debug iOS Hermes",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "launch",
+            "platform": "ios"
+        },
+        {
+            "name": "Run iOS Hermes",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "launch",
+            "platform": "ios",
+            "enableDebug": false
+        },
+        {
+            "name": "Attach to Hermes application",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "attach"
         }
     ]
 }

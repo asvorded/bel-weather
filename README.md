@@ -1,6 +1,6 @@
 # Weather App
 
-A Flutter application.
+A React Native application.
 
 Developers:
 * [Maksim Dadush](https://github.com/asvorded)
